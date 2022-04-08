@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Battambang:wght@100;300;400;700;900&family=Chenla&family=Dangrek&family=Kantumruy:wght@300;400;700&family=Moul&family=Moulpali&family=Noto+Sans+Khmer:wght@100;200;300;400;500;600;700;800;900&family=Noto+Serif+Khmer:wght@100;200;300;400;500;600;700;800;900&family=Odor+Mean+Chey&family=Preahvihear&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=TapromUbuntu:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.colorBackground {
+    left: 50%;
+    transform: translateX(-50%);
+    background: radial-gradient(
+            at 71% 77%,
+            var(--color-gradient-1) 0,
+            transparent 21%
+        ),
+        radial-gradient(at 36% 47%, var(--color-gradient-3) 0, transparent 50%),
+        radial-gradient(at 54% 29%, var(--color-gradient-3) 0, transparent 28%),
+        radial-gradient(at 45% 51%, var(--color-gradient-1) 0, transparent 53%),
+        radial-gradient(at 73% 44%, var(--color-gradient-2) 0, transparent 54%),
+        radial-gradient(at 24% 7%, var(--color-gradient-2) 0, transparent 40%),
+        radial-gradient(at 76% 46%, var(--color-gradient-1) 0, transparent 50%);
+    /* mix-blend-mode: normal; */
+    max-height: 800px;
+    height: 80vh;
+    max-width: 1048px;
+    width: 70vw;
+    width: 100%;
+    filter: blur(44px);
+    z-index: -1;
+}
+
+.colorBackgroundBottom {
+    left: 50%;
+    transform: translateX(-50%) rotate(0deg);
+    background: radial-gradient(
+            at 83% 25%,
+            var(--color-gradient-1) 0,
+            transparent 21%
+        ),
+        radial-gradient(at 36% 47%, var(--color-gradient-3) 0, transparent 50%),
+        radial-gradient(at 79% 45%, var(--color-gradient-3) 0, transparent 28%),
+        radial-gradient(at 66% 38%, var(--color-gradient-1) 0, transparent 53%),
+        radial-gradient(at 89% 13%, var(--color-gradient-2) 0, transparent 54%),
+        radial-gradient(at 24% 7%, var(--color-gradient-2) 0, transparent 40%),
+        radial-gradient(at 76% 46%, var(--color-gradient-1) 0, transparent 50%);
+    /* mix-blend-mode: normal; */
+    height: 600px;
+    max-width: 900px;
+    width: 55vw;
+    width: 100%;
+    filter: blur(44px);
+    z-index: -1;
+}
+
+
+#office img {
+    max-width: 100%;
+}
+
+
+/* FOOTER STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.page-footer {
+    position: fixed;
+    right: 15px;
+    bottom: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    padding: 5px;
+}
+
+.page-footer a {
+    margin-left: 4px;
+}
