@@ -1,74 +1,16 @@
 {
-  "name": "nintrea.org",
-  "description": "Founder of Nintrea",
-  "author": "Leat Sophat",
-  "contributors": [
-    "Leat Sophat",
-    "Hol Bundit"
-  ],
-  "homepage": "https://gitlab.com/leatsophat/nintrea.org",
-  "bugs": {
-    "url": "https://gitlab.com/leatsophat/nintrea.org/issues"
-  },
+  "name": "nextjs-github-pages",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "dev": "next",
-    "dev:watch": "next-remote-watch ./posts",
+    "dev": "next dev",
+    "export": "next export",
     "build": "next build",
-    "start": "next start",
-    "export": "next build && next export",
-    "lint": "next lint",
-    "deploy": "next build && next export && git add .next/ && git commit -m \"Deploy gh-pages\" && git subtree push --prefix .next origin gh-pages"
+    "start": "next start"
   },
   "dependencies": {
-    "@algolia/autocomplete-js": "^1.5.7",
-    "@algolia/autocomplete-plugin-query-suggestions": "^1.5.7",
-    "@craco/craco": "^6.4.3",
-    "@mapbox/rehype-prism": "^0.8.0",
-    "@react-three/drei": "^8.19.0",
-    "@react-three/fiber": "^7.0.26",
-    "@react-three/postprocessing": "^2.2.6",
-    "@supabase/supabase-js": "^1.33.3",
-    "@tailwindcss/typography": "^0.5.0",
-    "classnames": "^2.3.1",
-    "countapi-js": "^1.0.2",
-    "flowbite": "^1.4.1",
-    "gatsby-remark-video": "^1.2.5",
-    "googleapis": "^100.0.0",
-    "gray-matter": "^4.0.2",
-    "konsul": "^1.8.0",
-    "locomotive-scroll": "^4.1.4",
-    "markdown-it-html5-embed": "^1.0.0",
-    "next": "latest",
-    "next-mdx-remote": "^3.0.1",
-    "next-remote-watch": "1.0.0",
-    "nicons": "^1.0.5",
-    "nintrea-icon": "^0.0.2",
-    "postprocessing": "^6.26.2",
-    "prismjs": "^1.25.0",
-    "react": "^17.0.2",
-    "react-animated-slider": "^1.1.4",
-    "react-dom": "^17.0.2",
-    "react-icons": "^4.3.1",
-    "react-instantsearch-dom": "^6.23.3",
-    "react-konsul": "^1.8.0",
-    "react-locomotive-scroll": "^0.2.0",
-    "react-ripples": "^2.2.1",
-    "swr": "^1.2.2",
-    "tailwind-filter-utilities": "^2.0.0",
-    "three": "^0.138.3",
-    "three-mesh-bvh": "^0.5.7"
-  },
-  "devDependencies": {
-    "@tailwindcss/line-clamp": "^0.3.1",
-    "@types/react": "^17.0.43",
-    "autoprefixer": "^10.4.0",
-    "eslint": "<8.0.0",
-    "eslint-config-next": "12.0.10",
-    "eslint-config-prettier": "^8.3.0",
-    "gh-pages": "^3.2.3",
-    "next-transpile-modules": "^9.0.0",
-    "postcss": "^8.4.4",
-    "postcss-import": "^14.1.0",
-    "tailwindcss": "^3.0.0"
+    "next": "12.1.4",
+    "react": "18.0.0",
+    "react-dom": "18.0.0"
   }
 }
