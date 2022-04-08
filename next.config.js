@@ -1,6 +1,9 @@
 const withTM    = require('next-transpile-modules')(['three'])
+const isProd = process.env.NODE_ENV === 'production'
+
 module.exports  = withTM()
 module.exports  = {
+    assetPrefix: isProd ? '/your-github-repo-name/' : '',
     images: {
         domains: [
             '2.bp.blogspot.com',
